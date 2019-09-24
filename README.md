@@ -2,3 +2,6 @@
 
 ## URLs
 * http://lubo.elsys-bg.org/object-oriented-programming/
+
+## EMAILs
+* elsys-oop@googlegroups.com
