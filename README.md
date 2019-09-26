@@ -2,6 +2,7 @@
 
 ## URLs
 * http://lubo.elsys-bg.org/object-oriented-programming/
+* mariobenov.github.io/elsys-oop-site
 
 ## EMAILs
 * elsys-oop@googlegroups.com
