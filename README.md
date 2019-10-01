@@ -6,3 +6,8 @@
 
 ## EMAILs
 * elsys-oop@googlegroups.com
+
+## compilation
+```
+g++ -o {filename}.out {filename}.cpp -Wall -pedantic
+```
