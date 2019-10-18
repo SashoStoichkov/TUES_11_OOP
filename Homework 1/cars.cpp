@@ -36,9 +36,7 @@ class CarCatalogue{
     }
 
     public:
-        CarCatalogue(){
-            brand = "BrandName";
-        }
+        CarCatalogue(){}
 
         CarCatalogue(string brand, list<string> models){
             if (models.size() < 5){
