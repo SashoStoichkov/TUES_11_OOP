@@ -20,31 +20,40 @@ class Point{
     double y;
     const char name = 'A';
 
+    static int count;
+
     public:
         Point(double x, double y){
             this->x = x;
             this->y = y;
+            count++;
         }
 
         Point(double x, double y, const char name) : name(name){
             this->x = x;
             this->y = y;
+            count++;
         }
 
         double get_x() const {
             return x;
         }
 
-        void set_x(double x){
+        Point& set_x(double x){
             this->x = x;
+            return *this;
         }
 
         double get_y() const ;
 
-        void set_y(double y);
+        Point& set_y(double y);
 
         void print() const {
-            cout << name << " " << "X: " << x << ", Y: " << y << endl;
+            cout << name << " -> X: " << x << ", Y: " << y << endl;
+        }
+
+        static int get_count(){
+            return count;
         }
 
 };
@@ -53,14 +62,17 @@ double Point::get_y() const {
     return y;
 }
 
-void Point::set_y(double y){
+Point& Point::set_y(double y){
     this->y = y;
+    return *this;
 }
 
 void change(Point a, Point& b){
     a.set_x(8);
     b.set_x(9);
 }
+
+int Point::count = 0;
 
 int main(){
     // // ----- constants
@@ -101,15 +113,21 @@ int main(){
     // cout << a << endl;
 
     Point a = Point(2, 3, 'A');
-    a.print();
+    // a.print();
 
     Point b = Point(3, 4, 'B');
     // cout << b.get_x() << endl;
-    b.print();
+    // b.print();
 
     change(a, b);
     a.print();
     b.print();
+
+    cout << Point::get_count() << endl;
+
+    Point c = Point(3, 5, 'C');
+    c.set_x(10).set_y(15);
+    c.print();
 
     return 0;
 }
