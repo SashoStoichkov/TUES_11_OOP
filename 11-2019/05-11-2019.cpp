@@ -65,8 +65,6 @@ class Point{
             x += a;
             y += a;
         }
-
-        ope
 };
 
 ostream& operator<<(ostream& out, const Point p){
