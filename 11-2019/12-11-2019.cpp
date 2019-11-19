@@ -80,6 +80,12 @@ class Point{
             y = p.y;
             return *this;
         }
+
+        ~Point(){
+            x = 0;
+            y = 0;
+            // free dynam memory
+        }
 };
 
 void printPoint(const Point& p){
