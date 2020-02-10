@@ -1,10 +1,10 @@
-package com.elsys.oop;
+package com.oop;
 
 public class Main {
 
     public static void main(String[] args) {
-        // write your code here
+	    // write your code here
         Intro intro = new Intro();
-        intro.hello();
+        intro.print_hello();
     }
 }
