@@ -9,37 +9,39 @@ public class Main {
             expr += arg + " ";
         }
 
-        Point A = new Point(Double.parseDouble(String.valueOf(expr.charAt(0))), Double.parseDouble(String.valueOf(expr.charAt(2))));
+        int index_of_comma = expr.indexOf(',');
+        int index_of_space = expr.indexOf(' ');
+
+        Point A = new Point(Double.parseDouble(expr.substring(0, index_of_comma)),
+                            Double.parseDouble(expr.substring(++index_of_comma, index_of_space)));
         Point B;
 
         if (expr.length() > 6) {
-            B = new Point(Double.parseDouble(String.valueOf(expr.charAt(4))), Double.parseDouble(String.valueOf(expr.charAt(6))));
+            index_of_space++;
+            index_of_comma = expr.indexOf(',', index_of_comma);
+
+            B = new Point(Double.parseDouble(expr.substring(index_of_space++, index_of_comma)),
+                          Double.parseDouble(expr.substring(++index_of_comma, expr.indexOf(' ', index_of_comma+1))));
 
             if (args.length == 3) {
-                System.out.println("Triangle");
+                index_of_space += 2;
+                index_of_comma = expr.indexOf(',', index_of_comma);
 
-                Point C = new Point(Double.parseDouble(String.valueOf(expr.charAt(8))), Double.parseDouble(String.valueOf(expr.charAt(10))));
+                Point C = new Point(Double.parseDouble(expr.substring(index_of_space, index_of_comma)),
+                                    Double.parseDouble(expr.substring(index_of_comma+1, expr.indexOf(' ', index_of_comma+1))));
 
                 Triangle t = new Triangle(A, B, C);
 
-                System.out.println("Perimeter = " + t.getPerimeter());
-                System.out.println("Area = " + t.getArea());
+                t.printShape();
             } else if (args.length == 2) {
-                System.out.println("Rectangle");
-
                 Rectangle r = new Rectangle(A, B);
 
-                System.out.println("Perimeter = " + r.getPerimeter());
-                System.out.println("Area = " + r.getArea());
+                r.printShape();
             }
         } else {
-            System.out.println("Circle");
+            Circle c1 = new Circle(A, Double.parseDouble(expr.substring(index_of_space)));
 
-            Circle c1 = new Circle(A, Double.parseDouble(String.valueOf(expr.charAt(4))));
-
-            System.out.println("Perimeter = " + c1.getPerimeter());
-            System.out.println("Area = " + c1.getArea());
-
+            c1.printShape();
         }
     }
 }
