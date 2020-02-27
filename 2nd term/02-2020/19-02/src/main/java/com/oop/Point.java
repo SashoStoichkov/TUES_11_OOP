@@ -1,4 +1,4 @@
-package com.oop;
+package main.java.com.oop;
 
 public class Point {
     private final double x;

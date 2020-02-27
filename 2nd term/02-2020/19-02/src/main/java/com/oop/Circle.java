@@ -1,8 +1,12 @@
-package com.oop;
+package main.java.com.oop;
 
 public class Circle {
     private final Point center;
     private final double radius;
+
+    public double getRadius() {
+        return radius;
+    }
 
     public Circle(Point center, double radius) {
         this.center = center;

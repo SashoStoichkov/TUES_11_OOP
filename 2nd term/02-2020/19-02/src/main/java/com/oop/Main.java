@@ -1,4 +1,4 @@
-import com.oop.*;
+package main.java.com.oop;
 
 public class Main {
 

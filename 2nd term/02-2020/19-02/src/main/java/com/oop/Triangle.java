@@ -1,4 +1,4 @@
-package com.oop;
+package main.java.com.oop;
 
 public class Triangle {
     private final Point p1;
