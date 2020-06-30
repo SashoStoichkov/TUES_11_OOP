@@ -1,0 +1,17 @@
+HirePizzaMan, Mario, Benov, 10
+HirePizzaMan, Mario, Benov, 5
+HirePizzaMan, Mario, Benov, 2
+Stove, 5
+Ingredient, White Dough, Dough
+Ingredient, Mozzarella, Cheese
+Ingredient, Tomato Sauce, Sauce
+Order, 1, White Dough, Mozzarella, Tomato Sauce
+Order, 2, White Dough, Mozzarella, Tomato Sauce
+Order, 3, White Dough, Mozzarella, Tomato Sauce
+Order, 4, White Dough, Mozzarella, Tomato Sauce
+Order, 5, White Dough, Mozzarella, Tomato Sauce
+Order, 6, White Dough, Mozzarella, Tomato Sauce
+Order, 7, White Dough, Mozzarella, Tomato Sauce
+Order, 8, White Dough, Mozzarella, Tomato Sauce
+Order, 9, White Dough, Mozzarella, Tomato Sauce
+Order, 10, White Dough, Mozzarella, Tomato Sauce

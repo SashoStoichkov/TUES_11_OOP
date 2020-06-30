@@ -1,0 +1,40 @@
+2020-06-16 11:29:25.629 | Pizzaiolo{ Mario Benov 10 } starting to prepare Order{ 1 }
+2020-06-16 11:29:25.629 | Pizzaiolo{ Mario Benov 2 } starting to prepare Order{ 2 }
+2020-06-16 11:29:25.629 | Pizzaiolo{ Mario Benov 5 } starting to prepare Order{ 3 }
+2020-06-16 11:29:26.566 | Pizzaiolo{ Mario Benov 10 } prepared Order{ 1 } for baking! TO THE STOVE!
+2020-06-16 11:29:26.568 | Pizzaiolo{ Mario Benov 10 } starting to prepare Order{ 4 }
+2020-06-16 11:29:26.568 | Stove 17 took Order{ 1 } to bake!
+2020-06-16 11:29:27.168 | Pizzaiolo{ Mario Benov 5 } prepared Order{ 3 } for baking! TO THE STOVE!
+2020-06-16 11:29:27.168 | Stove 18 took Order{ 3 } to bake!
+2020-06-16 11:29:27.168 | Pizzaiolo{ Mario Benov 5 } starting to prepare Order{ 5 }
+2020-06-16 11:29:27.471 | Pizzaiolo{ Mario Benov 10 } prepared Order{ 4 } for baking! TO THE STOVE!
+2020-06-16 11:29:27.471 | Pizzaiolo{ Mario Benov 10 } starting to prepare Order{ 6 }
+2020-06-16 11:29:27.471 | Stove 19 took Order{ 4 } to bake!
+2020-06-16 11:29:28.371 | Pizzaiolo{ Mario Benov 10 } prepared Order{ 6 } for baking! TO THE STOVE!
+2020-06-16 11:29:28.371 | Pizzaiolo{ Mario Benov 10 } starting to prepare Order{ 7 }
+2020-06-16 11:29:28.371 | Stove 20 took Order{ 6 } to bake!
+2020-06-16 11:29:28.667 | Pizzaiolo{ Mario Benov 2 } prepared Order{ 2 } for baking! TO THE STOVE!
+2020-06-16 11:29:28.668 | Pizzaiolo{ Mario Benov 2 } starting to prepare Order{ 8 }
+2020-06-16 11:29:28.668 | Stove 21 took Order{ 2 } to bake!
+2020-06-16 11:29:28.669 | Pizzaiolo{ Mario Benov 5 } prepared Order{ 5 } for baking! TO THE STOVE!
+2020-06-16 11:29:28.669 | Pizzaiolo{ Mario Benov 5 } starting to prepare Order{ 9 }
+2020-06-16 11:29:29.271 | Pizzaiolo{ Mario Benov 10 } prepared Order{ 7 } for baking! TO THE STOVE!
+2020-06-16 11:29:29.271 | Pizzaiolo{ Mario Benov 10 } starting to prepare Order{ 10 }
+2020-06-16 11:29:30.169 | Pizzaiolo{ Mario Benov 5 } prepared Order{ 9 } for baking! TO THE STOVE!
+2020-06-16 11:29:30.171 | Pizzaiolo{ Mario Benov 10 } prepared Order{ 10 } for baking! TO THE STOVE!
+2020-06-16 11:29:30.572 | Stove 17 finished baking Order{ 1 }! Buon appetito! :)
+2020-06-16 11:29:30.573 | Stove 17 took Order{ 5 } to bake!
+2020-06-16 11:29:31.169 | Stove 18 finished baking Order{ 3 }! Buon appetito! :)
+2020-06-16 11:29:31.169 | Stove 18 took Order{ 7 } to bake!
+2020-06-16 11:29:31.472 | Stove 19 finished baking Order{ 4 }! Buon appetito! :)
+2020-06-16 11:29:31.472 | Stove 19 took Order{ 9 } to bake!
+2020-06-16 11:29:31.668 | Pizzaiolo{ Mario Benov 2 } prepared Order{ 8 } for baking! TO THE STOVE!
+2020-06-16 11:29:32.372 | Stove 20 finished baking Order{ 6 }! Buon appetito! :)
+2020-06-16 11:29:32.372 | Stove 20 took Order{ 10 } to bake!
+2020-06-16 11:29:32.669 | Stove 21 finished baking Order{ 2 }! Buon appetito! :)
+2020-06-16 11:29:32.669 | Stove 21 took Order{ 8 } to bake!
+2020-06-16 11:29:34.574 | Stove 17 finished baking Order{ 5 }! Buon appetito! :)
+2020-06-16 11:29:35.169 | Stove 18 finished baking Order{ 7 }! Buon appetito! :)
+2020-06-16 11:29:35.472 | Stove 19 finished baking Order{ 9 }! Buon appetito! :)
+2020-06-16 11:29:36.373 | Stove 20 finished baking Order{ 10 }! Buon appetito! :)
+2020-06-16 11:29:36.67 | Stove 21 finished baking Order{ 8 }! Buon appetito! :)
